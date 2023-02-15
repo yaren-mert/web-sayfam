@@ -13,7 +13,9 @@ const Projects = () => {
   return (
     <div id="projects">
       <section>
-        <h2 className="title">Projects</h2>
+        <div className="titleh2">
+          <h2 className="title">Projects</h2>
+        </div>
         <div className="projectsContainer">
           <div>
             <Card style={{ width: "28rem", minHeight: "650px" }}>
@@ -101,7 +103,7 @@ const Projects = () => {
                   View on Github <FaAngleDoubleRight />
                 </Card.Link>
                 <Card.Link
-                  href="https://github.com/yaren-mert/FSWeb-S7-Challenge"
+                  href="https://pizzasiparisform.vercel.app/"
                   target="_blank"
                 >
                   Go to app <FaAngleDoubleRight />

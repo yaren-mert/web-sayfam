@@ -302,6 +302,7 @@ header nav {
   font-size: 18px;
   color: #6b7280;
   width: 50%;
+  line-height: 2;
 }
 .profile{
   width: 80%;
@@ -366,6 +367,239 @@ header nav {
   margin-top: 5%;
 }
 
+
+.projectsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2% 10% 4% 10%;
+  gap: 2rem;
+}
+.card-img-top {
+  width: 270px !important;
+} 
+.card {
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  padding: 25px;
+  width: 21rem !important;
+  height: 750px;
+  box-sizing: border-box;
+  letter-spacing: 1.3px;
+}
+
+.card:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+.profileCard,
+.about {
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
+  padding: 20px;
+  width: 700px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+.box-2 {
+  margin-top: 37px !important;
+}
+
+.box-3 {
+  margin-top: 1px !important;
+}
+
+.list-group {
+  margin-top: 15px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.links a {
+  background-color: #fff;
+  color: #6b7280;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+  transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 6px;
+  background-color: #eeebff;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  width: 150px;
+  justify-content: center;
+  transition: 0.3s linear;
+}
+
+.links a:hover {
+  transform: rotateX(15deg);
+  box-shadow: 0 15px 15px rgb(55, 48, 163);
+}
+.titleh2 {
+  margin-left: 8.2rem;
+}
+footer {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+footer h3 {
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 125%;
+  color: #1f2937;
+  padding-top: 5%;
+}
+
+.contactContainer {
+  background: #f9f9f9;
+  height: 300px;
+}
+.contactInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.github {
+  font-weight: 500;
+  font-size: 18px;
+  color: #00ab6b;
+  text-decoration: none;
+  margin-right: 2%;
+}
+
+.linkedln {
+  font-weight: 500;
+  font-size: 18px;
+  color: #0077b5;
+  text-decoration: none;
+}
+.personalblog {
+  font-weight: 500;
+  font-size: 18px;
+  color:#282c34;
+  text-decoration: none;
+  width: 8rem;
+  
+}
+.email {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #3730a3;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+}
+
+footer p {
+  margin: 3% 0;
+  display: flex;
+  justify-content: baseline;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color:#282c34;
+}
+svg {
+  margin-right: 10px;
+}
+.hover {
+  -webkit-transition: color 1s;
+  -moz-transition: color 1s;
+  -ms-transition: color 1s;
+  -o-transition: color 1s;
+  transition: color 1s;
+}
+.hover2 {
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  transition: color 0.5s;
+}
+.hover:hover {
+  color: #432269;
+}
+
+.hover2:hover {
+  background-color: #3730a3 !important;
+  color: white !important;
+}
+
+.textDec:hover {
+  text-decoration: underline;
+}
+.website {
+  display: flex;
+  gap: 3rem;
+}
+
+@media (max-width: 780px) {
+  header{
+    justify-content: center;
+    flex-direction: column;
+    gap:1rem;
+  }
+  .headerLink{
+    flex-direction: column;
+    gap:1rem;
+    align-items: center;
+  }
+  .introContent{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .introText{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .introButtons{
+    width: 100%;
+  }
+  .introContent h1 {
+    font-size: 2rem;
+    
+  }
+  .introImage {
+    width: 200px!important;
+  }
+  .skills-comp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .skills{
+    align-items: center;
+  }
+  .profileContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  .profileCard{
+    width: 100%;
+  }
+  .about{
+    width: 100%;
+  }
+  .contactInfo{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -395,3 +629,5 @@ header nav {
     transform: rotate(360deg);
   }
 }
+
+
